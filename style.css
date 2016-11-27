@@ -1,0 +1,228 @@
+body {
+    background-color: #eeeeee;
+    color: #333;
+    font-family: "Roboto",UILanguageFont,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.4;
+    height: 100%;
+    min-width: 1024px;
+    position: relative;
+    text-rendering: optimizeLegibility;
+    z-index: -1;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.publisher-name {
+    text-align: center;
+}
+
+.app {
+    display:inline-block;
+}
+
+.details-info {
+    background-color: #eeeeee;
+    border-bottom: 2px solid #d6d6d6;
+    position: relative;
+    width: 100%;
+}
+
+.details-info:hover { 
+    background-color: #d7d7d7;
+}
+
+.details-info-cell {
+    display:inline-block;
+}
+
+.details-info .cover-image {
+    width: 150px;
+    padding-left: 20px;
+}
+
+img {
+    -webkit-filter: brightness(100%);
+}
+
+img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.details-info .info-container {
+    min-height: 195px;
+    padding:24px 50px 10px 10px;
+}
+
+.info-container .document-title {
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 1px;
+    white-space: normal;
+}
+
+.details-actions {
+    margin: 4px 0;
+    padding: 6px 0 0 0;
+}
+
+
+.play-button.apps:hover {
+    background-color: #8bc34a;
+}
+.play-button.apps:hover, .play-button.books:hover, .play-button.chrome-apps:hover, .play-button.devices:hover, .play-button.entity:hover, .play-button.magazines:hover, .play-button.movies:hover, .play-button.music:hover, .play-button.tv:hover, .play-button.neutral:hover, .play-button.multi:hover {
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.27);
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.27);
+}
+.buy-button-container.play-button {
+    padding: 0;
+}
+.details-actions .play-button {
+    margin-bottom: 5px;
+}
+.details-actions .play-button-wrapper, .details-actions .play-button {
+    display: inline-block;
+}
+.play-button.apps {
+    background-color: #689f38;
+}
+.play-button.apps, .play-button.books, .play-button.chrome-apps, .play-button.devices, .play-button.entity, .play-button.magazines, .play-button.movies, .play-button.music, .play-button.tv, .play-button.neutral, .play-button.multi {
+    color: #fff;
+    line-height: 36px;
+}
+.play-button:hover {
+    -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,0.27);
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.27);
+    border: 1px solid rgba(0,0,0,0.27);
+    color: #333;
+    cursor: pointer;
+}
+.play-button {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    -webkit-user-select: none;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.17);
+    color: #737373;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    height: 36px;
+    line-height: 34px;
+    min-width: 40px;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.buy-button-container.play-button .price {
+    display: block;
+    cursor: pointer;
+}
+.buy-button-container.play-button .price, .buy-button-container.play-button .info-label {
+    color: #fff;
+    padding: 0 20px;
+}
+button {
+    -webkit-box-sizing: initial;
+    box-sizing: initial;
+    -webkit-font-smoothing: inherit;
+    -webkit-align-items: initial;
+    align-items: initial;
+    background: none;
+    border: 0;
+    -webkit-box-sizing: initial;
+    box-sizing: initial;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    text-align: inherit;
+    outline:none;
+}
+
+.inapp-msg {
+    color: #737373;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    top: 2px;
+    vertical-align: top;
+}
+
+.details-info-divider {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin: 10px 0 12px 0;
+    max-width: 510px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.header-star-badge {
+    color: #616161;
+    display: inline-block;
+    font-weight: 300;
+    margin-bottom: 10px;
+    width: 267px;
+}
+
+.stars-container, .stars-count {
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.app-price {
+    color:#689f38
+}
+
+.details-info-price-inapp-msg {
+    margin-bottom: 28px;
+}
+
+.reviewers-small {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAW0lEQ…VU4ACBmApAejfALIB61QBVwQeoBAJ+QFXwHxNSLy4IQAD87f8pWI1e0gAAAABJRU5ErkJggg==);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    top: 1px;
+    width: 16px;
+}
+
+.tiny-star .current-rating {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAAY0lEQ…h2Fl+AS10AipEgCRY+AIRAGk2y2ADoxwCwogAgy4Co4MMDAQ52uOmaLCe/AAAAAElFTkSuQmCC) left bottom;
+    height: 14px;
+}
+
+.star-rating-non-editable-container {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAAYElEQ…/YbZdJCwvDVda1not7k/ZQm3SPw6qWTYcElDgPRZRw9X2HfsTTkjWVYOnFAAAAAElFTkSuQmCC) top left repeat-x;
+    left: -1px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 1px;
+}
