@@ -273,7 +273,7 @@ div.sidebar-link:hover{
     font-weight: 400;
     font-size: 13px;
     outline: none;
-    padding: 2px 0 2px 248px;
+    padding: 2px 0 2px 0px;
     position: absolute;
     text-align: center;
     top: 0;
