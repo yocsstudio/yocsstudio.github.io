@@ -9,7 +9,6 @@
     min-width: 1024px;
     position: relative;
     text-rendering: optimizeLegibility;
-    z-index: -1;
     width: 50%;
     margin: 0 auto;
 }
