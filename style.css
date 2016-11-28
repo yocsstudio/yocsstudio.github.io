@@ -29,7 +29,6 @@
 }
 
 .details-info {
-    background-color: #eeeeee;
     border-bottom: 2px solid #d6d6d6;
     position: relative;
     width: 100%;
@@ -121,7 +120,7 @@ img:hover {
     -webkit-transition: all .2s;
     transition: all .2s;
     -webkit-user-select: none;
-    background-color: #fff;
+   
     border: 1px solid rgba(0,0,0,0.17);
     color: #737373;
     cursor: pointer;
@@ -247,4 +246,37 @@ button {
 .tiny-star .current-rating {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAAY0lEQVR4AWP4jwcSloSB4oTiBCCFQ/JB8QN0SYS+/0CYgCZZXFDcUHyg+ANIEkgeAPIKEJILgIKocAHCWHTpBWh2Fl+AS10AipEgCRY+AIRAGk2y2ADoxwCwogAgy4Co4MMDAQ52uOmaLCe/AAAAAElFTkSuQmCC) left bottom;
     height: 14px;
+}
+
+#side-menu {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    background-color: #F3F3F3;
+    height: 100%;
+}
+
+#search-container {
+    padding-top: 10px;
+}
+
+.sidebar-link {
+    font-size: 16px;
+    text-align: center;
+    
+}
+div.sidebar-link:hover{
+    background-color: #E3E3E3;
+}
+
+.unsupported-browser-msg {
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    background: #f2e7a1;
+    font-weight: 400;
+    font-size: 13px;
+    outline: none;
+    padding: 2px 0 2px 248px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
 }
